@@ -3,13 +3,13 @@
 #include <ctime>        //時間を扱うためのヘッダーファイル
 using namespace std;
 
+//1秒ごとに結果が異なるようにする
 void InitRand(){
-    //1秒ごとに結果が異なるようにする
     srand((unsigned int)time(NULL));
 }
 
-int Dice(){
-    //乱数の生成
+//乱数の生成
+int Dice(){   
     return rand() % 6 + 1;
     // return (int)(rand() / (RAND_MAX + 1.0) * 6 + 1);
 }

@@ -6,7 +6,6 @@ int main(void){
 
     hello[4] = '\0';
     
-
     cout << "「" << hello << "」を文字コードに帰ると" << endl;
     /*
     sizeof で配列の個数を取得できる
