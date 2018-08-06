@@ -5,6 +5,7 @@ int main(void){
     char hello[] = "Hello!";
 
     hello[4] = '\0';
+    
 
     cout << "「" << hello << "」を文字コードに帰ると" << endl;
     /*
