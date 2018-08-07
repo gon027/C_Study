@@ -6,9 +6,12 @@ int main(void){
     double a, b;
     double radian;
 
-    // cout << "直角を挟む２辺の長さの入力 ->" << flush;
-    // cin >> a >> b;
-    // cout << "斜辺の長さ" << sqrt(a * a + b * b) << endl;
+    // ピタゴラスの定理
+    /* 
+    cout << "直角を挟む２辺の長さの入力 ->" << flush;
+    cin >> a >> b;
+    cout << "斜辺の長さ" << sqrt(a * a + b * b) << endl;
+    */
 
     // 三角関数を求める
     cout << "角度を入力" << flush;
