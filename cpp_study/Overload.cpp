@@ -23,16 +23,19 @@ int Input(int& i, double& d){
     cout << "整数値を入力" << flush;
     cin >> i;
     if(i == 0){
-        return 0;
+        // return 0;
+        return false;       // ループを終了する
     }
 
     cout << "小数値を入力" << flush;
     cin >> d;
     if(d == 0){
-        return 0;
+        // return 0;
+        return false;       // ループを終了する
     }
 
-    return 1;
+    // return 1;
+    return true;       //ループを続ける
 }
 
 // 絶対値の表示
