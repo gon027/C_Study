@@ -20,6 +20,7 @@ void ShowLength(const char* str) {
 int main(){
     ShowLength("Hello");
     ShowLength("");
+    ShowLength("a");
 
     return 0;
 }
