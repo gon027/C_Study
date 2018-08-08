@@ -1,5 +1,7 @@
 #include <iostream>
+#define _USE_MATH_DEFINES       //M_PIを使うためにひつよう
 #include <cmath>        //数学関数を使うためのヘッダーファイル
+#include <math.h>
 using namespace std;
 
 int main(void){
